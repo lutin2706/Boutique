@@ -1,4 +1,4 @@
-# boutique
+# Boutique
 Boutique en ligne - Servlets
 
 Projet de base dans le cadre du cours sur les Servlets. Projet Eclipse : Dynamic Web Project
@@ -12,9 +12,9 @@ Projet de base dans le cadre du cours sur les Servlets. Projet Eclipse : Dynamic
 Trois Servlets ont été définies :
 * ProductServlet retrouve la liste des produits et l'envoie à la JSP products.jsp
 * DetailServlet affiche les détails d'un produit (via details.jsp)
-* CartServlet gère le panier du client et renvoie vers la page Products.
-** GET affiche le panier
-** POST ajoute un article au panier, ou le vide, selon le paramètre passé
+* CartServlet gère le panier du client et renvoie vers la page Products.  
+GET affiche le panier  
+POST ajoute un article au panier, ou le vide, selon le paramètre passé
 
 ## Technologies utilisées
 
