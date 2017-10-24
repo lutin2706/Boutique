@@ -1,0 +1,54 @@
+body {
+  display: grid;
+  grid-template-areas: "h h h h h"
+                       "n c c c c"
+                       "f f f f f";
+  background-color: #E1CFBE;
+  padding: 2%;
+}
+
+a {
+	color: #60A0A7;
+}
+
+img {width: 200px;}
+
+header {
+	grid-area: h;
+	background-color:white;
+	background-image: url("../images/logo.jpg");
+	background-repeat: no-repeat;
+	background-position: 20px;
+	height: 200px;
+	margin-bottom:20px;
+	padding:20px;
+}
+
+header p {
+	color: #D0413D;
+	font-size: 3em;
+	margin: 70px 0 0 350px;
+}
+
+nav {
+	margin: 20px 20px 0 0;
+	background-color: white;
+    grid-area: n; /* placement de <nav> dans l'emplacement "n" */
+	padding:20px;
+}
+
+section {
+	grid-area: c;
+	margin: 20px 0 0 20px;
+	background-color: white;
+	padding: 20px;
+}
+
+section h1 {
+	color: #5F1D25;
+}
+
+footer {
+	grid-area: f;
+}
+

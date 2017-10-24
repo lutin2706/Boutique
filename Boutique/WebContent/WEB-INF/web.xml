@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Boutique</display-name>
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>be.superteam.servlets.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/products</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/index.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>be.superteam.servlets.DetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/details</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>be.superteam.servlets.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+</web-app>
