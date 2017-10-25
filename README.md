@@ -20,6 +20,7 @@ POST ajoute un article au panier, ou le vide, selon le paramètre passé
 * JEE (servlets + JSP)
 * Pas d'accès à la DB (produits stockés dans une Liste)
 * HTML/CSS
+* JSTL (dont formatNumber, currency, bouclage sur des Maps, ...)
 
 ## Commencer un nouveau projet
 * File > New > Dynamic Web Project
