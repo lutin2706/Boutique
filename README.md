@@ -34,4 +34,4 @@ En créant une Servlet, on a le choix des méthodes à implémenter
 * service : appelé pour toute request
 Normalement, on n'utilise pas le constructeur, tout se fait dans le init.
 
-** Pour afficher la page, il faut mettre le projet dans le server (run as > run on server ou clic-droit sur le serveur > Add & remove **  
+**Pour afficher la page, il faut mettre le projet dans le server (run as > run on server ou clic-droit sur le serveur > Add & remove**  
